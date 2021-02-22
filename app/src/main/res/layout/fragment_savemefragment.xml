@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".savemefragment">
+
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="155dp"
+        android:text="Phone Number"
+        />
+
+    <EditText
+        android:id="@+id/editphonenumber"
+        android:layout_width="300dp"
+        android:layout_marginTop="150dp"
+        android:layout_toRightOf="@id/phone"
+        android:layout_height="40dp"
+        />
+
+    <Button
+        android:id="@+id/addphonebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Phone NUmber"
+        android:layout_below="@id/editphonenumber"
+        android:layout_centerInParent="true"
+        />
+
+    <Button
+        android:id="@+id/voicefunctionbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activate Voice Function"
+        android:layout_centerInParent="true"
+        />
+
+    <Button
+        android:id="@+id/sendlocationbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send Msg"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/addphonebtn"
+        android:layout_centerHorizontal="true"
+        />
+
+
+    <Button
+        android:id="@+id/sendlivelocationbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send Live Location"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/voicefunctionbtn"
+        android:layout_centerHorizontal="true"
+        />
+
+
+
+</RelativeLayout>

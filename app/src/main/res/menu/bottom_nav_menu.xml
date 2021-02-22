@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/makeiteasy"
+        android:title="Make It Easy"
+        android:icon="@drawable/ic_baseline_groups_24"
+        />
+
+    <item
+        android:id="@+id/attendance"
+        android:title="Attendance"
+        android:icon="@drawable/ic_baseline_emoji_people_24"
+        />
+
+
+    <item
+        android:id="@+id/nothing"
+        android:title=""
+        />
+
+    <item
+        android:id="@+id/relateyouridea"
+        android:title="Relate Your Idea"
+        android:icon="@drawable/ic_baseline_ac_unit_24"
+        />
+
+    <item
+        android:id="@+id/timemanagement"
+        android:title="Time Management"
+        android:icon="@drawable/ic_baseline_schedule_24"
+        />
+
+
+</menu>
